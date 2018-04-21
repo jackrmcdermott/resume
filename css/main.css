@@ -1,13 +1,13 @@
 body {
   background-color: white;
-  margin: 5% 15% 5% 15%;
-  font-family: "Lato", sans-serif;
+  margin: 3% 14% 5% 14%;
+  font-family: "Nunito Sans", sans-serif;
   color: #404040; }
 
 p {
   font-family: "Lora", serif;
-  font-size: .9em;
-  line-height: 1.5em; }
+  font-size: 1em;
+  line-height: 1.7em; }
 
 a {
   color: #003159;
@@ -15,20 +15,18 @@ a {
   font-weight: bold;
   text-decoration: none; }
 
-.name {
+h1.name {
   color: #003159;
   display: inline-block;
-  font-size: 2em;
-  letter-spacing: 3px;
+  font-size: 2.5em;
   margin-bottom: 0px;
-  text-transform: uppercase; }
+  font-weight: 800; }
 
 .contact-information, .links-container {
   font-size: .9em;
   letter-spacing: 1px;
   line-height: .9em;
-  margin: 10px 0px;
-  text-transform: uppercase; }
+  margin: 5px 0px; }
 
 .contact-deets {
   display: inline-block;
@@ -65,15 +63,20 @@ header {
 
 img.headshot {
   border-radius: 100%;
-  height: 130px; }
+  height: 130px;
+  margin-top: 20px; }
 
 .content {
+  margin-top: 30px;
   padding-top: 0px; }
+
+#about {
+  margin-top: 80px; }
 
 .primary-titles {
   color: #003159;
   display: inline-block;
-  font-size: 0.9em;
+  font-size: 1em;
   letter-spacing: 1px;
   margin-bottom: -1%;
   text-decoration: none; }
@@ -90,18 +93,19 @@ img.headshot {
   padding-left: .4em;
   text-transform: uppercase; }
 
-.category-headers {
+h2.category-headers {
   color: #003159;
-  font-size: 1em;
+  font-size: 1.4em;
   letter-spacing: 2px;
   margin-top: 3em;
   margin-bottom: .1em;
   text-transform: uppercase;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  font-weight: 600; }
 
 .category-details {
-  font-size: .8em;
+  font-size: .9em;
   line-height: 1.7em;
   margin-bottom: 1%;
   font-style: italic;
@@ -109,16 +113,12 @@ img.headshot {
   margin-top: .5em; }
 
 .category-description-main {
-  font-size: .9em;
-  line-height: 1.7em;
   margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
   margin-top: 1.1em; }
 
 .category-description {
-  font-size: .9em;
-  line-height: 1.7em;
   margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
