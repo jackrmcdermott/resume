@@ -1,10 +1,8 @@
 
 $sans-font: 'Nunito Sans', sans-serif;
-$serif-font: 'Lora', serif;
-
+$serif-font: 'PT Serif', serif;
 $darkblue: #003159;
 $darkgray: #404040;
-
 
 body {
   background-color: white;
@@ -16,7 +14,8 @@ body {
 p {
   font-family: $serif-font;
   font-size: 1em;
-  line-height: 1.7em;
+  line-height: 1.6em;
+  //letter-spacing: -0.005em;
 }
 
 a {
@@ -31,7 +30,7 @@ h1.name {
   display: inline-block;
   font-size: 2.5em;
   //letter-spacing: 3px;
-  margin-bottom: 0px;
+  margin-bottom: -5px;
   font-weight: 800;
 }
 
@@ -39,17 +38,15 @@ h1.name {
   font-size: .9em;
   letter-spacing: 1px;
   line-height: .9em;
-  margin: 5px 0px;
-  //text-transform: uppercase;
+  margin: 8px 0px;
 
 }
 
 .contact-deets {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0px;
   text-decoration: none;
 }
-
 
 .links {
   display: inline-block;
@@ -62,6 +59,11 @@ h1.name {
   &:first-child {
     padding-left: 0px;
   }
+}
+
+i.fa {
+  font-size: 1.3em;
+  color: $darkblue;
 }
 
 i.fa-external-link {
@@ -89,7 +91,7 @@ header {
 img.headshot {
   border-radius: 100%;
   height: 130px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .content {
@@ -138,7 +140,9 @@ h2.category-headers {
 }
 
 .category-details {
-  font-size: .9em;
+  font-size: .85em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   line-height: 1.7em;
   margin-bottom: 1%;
   font-style: italic;
@@ -150,7 +154,7 @@ h2.category-headers {
   margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
-  margin-top: 1.1em;
+  margin-top: 1em;
 }
 
 .category-description {
