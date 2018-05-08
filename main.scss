@@ -9,6 +9,11 @@ body {
   margin: 3% 14% 5% 14%;
   font-family: $sans-font;
   color: $darkgray;
+
+  @media (max-width: 767px) {
+    margin: 1% 7% 10% 7%;
+  }
+
 }
 
 p {
@@ -29,7 +34,7 @@ h1.name {
   color: $darkblue;
   display: inline-block;
   font-size: 2.5em;
-  //letter-spacing: 3px;
+  line-height: 1.1em;
   margin-bottom: -5px;
   font-weight: 800;
 }

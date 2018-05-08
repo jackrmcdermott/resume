@@ -3,6 +3,9 @@ body {
   margin: 3% 14% 5% 14%;
   font-family: "Nunito Sans", sans-serif;
   color: #404040; }
+  @media (max-width: 767px) {
+    body {
+      margin: 1% 7% 10% 7%; } }
 
 p {
   font-family: "PT Serif", serif;
@@ -19,6 +22,7 @@ h1.name {
   color: #003159;
   display: inline-block;
   font-size: 2.5em;
+  line-height: 1.1em;
   margin-bottom: -5px;
   font-weight: 800; }
 
