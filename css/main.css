@@ -7,6 +7,9 @@ body {
     body {
       margin: 1% 7% 10% 7%; } }
 
+.massive-container {
+  max-width: 1200px; }
+
 p {
   font-family: "PT Serif", serif;
   font-size: 1em;
