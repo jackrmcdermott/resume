@@ -1,8 +1,8 @@
 body {
   background-color: white;
-  margin: 3% 14% 5% 14%;
+  margin: 3% 14% 3% 14%;
   font-family: "Nunito Sans", sans-serif;
-  color: #404040; }
+  color: #121212; }
   @media (max-width: 767px) {
     body {
       margin: 1% 7% 10% 7%; } }
@@ -10,10 +10,10 @@ body {
 .massive-container {
   max-width: 1200px; }
 
-p {
+p, li > p {
   font-family: "PT Serif", serif;
   font-size: 1em;
-  line-height: 1.6em; }
+  line-height: 1.5em; }
 
 a {
   color: #003159;
@@ -89,7 +89,8 @@ img.headshot {
   display: inline-block;
   font-size: 1em;
   letter-spacing: 1px;
-  margin-bottom: -1%;
+  margin-top: 15px;
+  margin-bottom: 0em;
   text-decoration: none; }
   .primary-titles a {
     text-decoration: none;
@@ -108,7 +109,7 @@ h2.category-headers {
   color: #003159;
   font-size: 1.4em;
   letter-spacing: 2px;
-  margin-top: 2.0em;
+  margin-top: 1.8em;
   margin-bottom: .1em;
   text-transform: uppercase;
   border-bottom: 1px solid #ccc;
@@ -117,19 +118,26 @@ h2.category-headers {
 
 .category-details {
   font-size: .85em;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.7em;
-  margin-bottom: 1%;
+  line-height: 1.5em;
+  margin-bottom: 0.2em;
   font-style: italic;
-  margin-left: 2%;
   margin-top: .5em; }
 
+.category-title {
+  font-size: .9em;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1.6em;
+  margin-bottom: -5px;
+  margin-top: 15px; }
+
 .category-description-main {
-  margin-bottom: 1%;
-  margin-left: 2%;
+  margin-bottom: .7em;
+  margin-left: 1%;
   margin-right: 7%;
-  margin-top: 1em; }
+  margin-top: .7em; }
 
 .category-description {
   margin-bottom: 1%;
@@ -141,10 +149,10 @@ li {
   color: #003159; }
 
 li > p {
-  color: #404040; }
+  color: #121212; }
 
 .footer-flag {
-  margin: 50px auto 10px;
+  margin: 50px auto 0px;
   text-align: center;
   width: 100%; }
   .footer-flag img {

@@ -2,11 +2,11 @@
 $sans-font: 'Nunito Sans', sans-serif;
 $serif-font: 'PT Serif', serif;
 $darkblue: #003159;
-$darkgray: #404040;
+$darkgray: #121212;
 
 body {
   background-color: white;
-  margin: 3% 14% 5% 14%;
+  margin: 3% 14% 3% 14%;
   font-family: $sans-font;
   color: $darkgray;
 
@@ -20,11 +20,10 @@ body {
   max-width: 1200px;
 }
 
-p {
+p, li > p {
   font-family: $serif-font;
   font-size: 1em;
-  line-height: 1.6em;
-  //letter-spacing: -0.005em;
+  line-height: 1.5em;
 }
 
 a {
@@ -117,7 +116,8 @@ img.headshot {
   display: inline-block;
   font-size: 1em;
   letter-spacing: 1px;
-  margin-bottom: -1%;
+  margin-top: 15px;
+  margin-bottom: 0em;
   text-decoration: none;
 
   a {
@@ -140,7 +140,7 @@ h2.category-headers {
   color: $darkblue;
   font-size: 1.4em;
   letter-spacing: 2px;
-  margin-top: 2.0em;
+  margin-top: 1.8em;
   margin-bottom: .1em;
   text-transform: uppercase;
   border-bottom: 1px solid #ccc;
@@ -150,20 +150,28 @@ h2.category-headers {
 
 .category-details {
   font-size: .85em;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.7em;
-  margin-bottom: 1%;
+  line-height: 1.5em;
+  margin-bottom: 0.2em;
   font-style: italic;
-  margin-left: 2%;
   margin-top: .5em;
 }
 
+.category-title {
+  font-size: .9em;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1.6em;
+  margin-bottom: -5px;
+  margin-top: 15px;
+}
+
 .category-description-main {
-  margin-bottom: 1%;
-  margin-left: 2%;
+  margin-bottom: .7em;
+  margin-left: 1%;
   margin-right: 7%;
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 .category-description {
@@ -182,7 +190,7 @@ li > p {
 }
 
 .footer-flag {
-  margin: 50px auto 10px;
+  margin: 50px auto 0px;
   text-align: center;
   width: 100%;
 
