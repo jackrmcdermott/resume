@@ -2,7 +2,7 @@ body {
   background-color: white;
   margin: 3% 14% 3% 14%;
   font-family: "Nunito Sans", sans-serif;
-  color: #121212; }
+  color: #1a1b26; }
   @media (max-width: 767px) {
     body {
       margin: 1% 7% 10% 7%; } }
@@ -13,7 +13,9 @@ body {
 p, li > p {
   font-family: "PT Serif", serif;
   font-size: 1em;
-  line-height: 1.5em; }
+  line-height: 1.4em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em; }
 
 a {
   color: #003159;
@@ -45,8 +47,8 @@ h1.name {
   color: #003159;
   border-bottom: none;
   text-decoration: none;
-  padding: 0px 5px;
-  margin-top: 12px; }
+  padding: 0px 4px;
+  margin-top: 10px; }
   .links:first-child {
     padding-left: 0px; }
 
@@ -58,7 +60,7 @@ i.fa-external-link {
   font-size: 0.7em; }
 
 header {
-  padding-bottom: 100px; }
+  padding-bottom: 120px; }
 
 .header-info-container {
   width: 79%;
@@ -88,9 +90,10 @@ img.headshot {
   color: #003159;
   display: inline-block;
   font-size: 1em;
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
   margin-top: 15px;
   margin-bottom: 0em;
+  font-weight: bold;
   text-decoration: none; }
   .primary-titles a {
     text-decoration: none;
@@ -120,14 +123,14 @@ h2.category-headers {
   font-size: .85em;
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.5em;
+  line-height: 1.2em;
   margin-bottom: 0.2em;
   font-style: italic;
   margin-top: .5em; }
 
 .category-title {
   font-size: .9em;
-  font-weight: 800;
+  font-weight: bold;
   letter-spacing: 0.01em;
   line-height: 1.6em;
   margin-bottom: -5px;
@@ -149,7 +152,7 @@ li {
   color: #003159; }
 
 li > p {
-  color: #121212; }
+  color: #1a1b26; }
 
 .footer-flag {
   margin: 50px auto 0px;

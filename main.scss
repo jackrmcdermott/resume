@@ -2,7 +2,7 @@
 $sans-font: 'Nunito Sans', sans-serif;
 $serif-font: 'PT Serif', serif;
 $darkblue: #003159;
-$darkgray: #121212;
+$darkgray: #1a1b26;
 
 body {
   background-color: white;
@@ -23,7 +23,10 @@ body {
 p, li > p {
   font-family: $serif-font;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.4em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+
 }
 
 a {
@@ -46,7 +49,7 @@ h1.name {
   font-size: .9em;
   letter-spacing: 1px;
   line-height: .9em;
-  margin: 8px 0px;
+  margin: 8px 0px
 
 }
 
@@ -61,8 +64,8 @@ h1.name {
   color: $darkblue;
   border-bottom: none;
   text-decoration: none;
-  padding: 0px 5px;
-  margin-top: 12px;
+  padding: 0px 4px;
+  margin-top: 10px;
 
   &:first-child {
     padding-left: 0px;
@@ -79,7 +82,7 @@ i.fa-external-link {
 }
 
 header {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 .header-info-container {
@@ -115,9 +118,10 @@ img.headshot {
   color: $darkblue;
   display: inline-block;
   font-size: 1em;
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
   margin-top: 15px;
   margin-bottom: 0em;
+  font-weight: bold;
   text-decoration: none;
 
   a {
@@ -152,7 +156,7 @@ h2.category-headers {
   font-size: .85em;
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.5em;
+  line-height: 1.2em;
   margin-bottom: 0.2em;
   font-style: italic;
   margin-top: .5em;
@@ -160,7 +164,7 @@ h2.category-headers {
 
 .category-title {
   font-size: .9em;
-  font-weight: 800;
+  font-weight: bold;
   letter-spacing: 0.01em;
   line-height: 1.6em;
   margin-bottom: -5px;
